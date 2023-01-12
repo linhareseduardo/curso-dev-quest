@@ -9,10 +9,20 @@
     }
 }
 @media (max-width: 768px){
-
+    .contato{
+        background-image: none;
+        background-color: #D3AE71;
+    }
+    .contato .texto {
+        position: relative;
+        text-align: center;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
 }
 
-@media (max-width: 768px){
+@media (max-width: 720px){
     .ladrilho .grande,
     .ladrilho .medio{
         width: 100%;
@@ -23,6 +33,39 @@
         width: 50%;
     }
 
+    .contato h2{
+        margin-bottom: 46px;
+    }
+
+    .rodape{
+        text-align: center;
+        background-image: none;
+        background-color: black;
+    }
+
+    .rodape .logo {
+        display: block;
+        margin-bottom: 122px;
+    }
+
+    .rodape ul{
+        display: block;
+        width: 100%;
+        margin-bottom: 122px;
+    }
+
+    .rodape ul li {
+        display: block;
+    }
+
+    .rodape ul li a {
+        font-size: 2rem;
+    }
+
+    .rodape .redes-sociais{
+        float: none;
+        margin-bottom: 28px;
+    }
 
 }
 
