@@ -1,1 +1,10 @@
-window.prompt("Digite a sua idade");
+//window.prompt("Digite a sua idade");
+
+
+let retornoDoUsuario = confirm("Deseja continuar?")
+
+console.log(retornoDoUsuario)
+
+let idade = prompt("Digite sua idade")
+
+console.log(idade)
