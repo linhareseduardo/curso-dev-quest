@@ -11,7 +11,7 @@
 
 
 const a = 3
-const b = '3'
+const b = 3
 
 console.log(a!==b)
 console.log(a===b)
@@ -21,3 +21,26 @@ console.log(a>b)
 console.log(a>=b)
 console.log(a<b)
 console.log(a<=b)
+
+const c = 2
+const d = 2
+
+console.log(c === d && c <= d)
+console.log(c === d && c < d)
+console.log(c > d && c === d)
+console.log(c > d && c < d)
+
+
+
+console.log(c === d || c <= d)
+console.log(c === d || c < d)
+console.log(c < d || c === d)
+console.log(c > d || c < d)
+
+
+//not
+console.log(!(a === b))
+
+
+console.log(!(a < b))
+
