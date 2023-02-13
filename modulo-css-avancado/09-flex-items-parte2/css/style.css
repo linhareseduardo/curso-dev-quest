@@ -19,3 +19,9 @@
 .wrap{
     flex-wrap: wrap;
 }
+
+
+.item.item3{
+    order: 1;
+}
+
